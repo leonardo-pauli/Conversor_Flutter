@@ -1,0 +1,29 @@
+name: conversor_moeda
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  fl_chart: ^0.66.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brl.png
+    - assets/usd.png
+    - assets/eur.png
+    - assets/jpy.png
+    - assets/gbp.png
+
+
